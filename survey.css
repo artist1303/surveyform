@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(177, 165, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#form{
+    background-color: rgb(194, 229, 235);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+button {
+    background-color: #c6aff5;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
